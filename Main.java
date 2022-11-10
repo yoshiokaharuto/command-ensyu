@@ -8,7 +8,7 @@ public class Main {
 	  double height = sc.nextDouble();
 	  double weight = sc.nextDouble();	  
 	  double bmi = weight/(height*height);
-	  System.out.println((Math.floor(bmi*10000))/100);
+	  System.out.println((Math.floor(bmi*100))/100);
            }
 	  sc.close();
 	}
